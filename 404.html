@@ -1,6 +1,14 @@
 ---
 ---
 
-{% for x in site.link %}
-	{{ x.link }} - {{ x.to }}<br>
-{% endfor %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zen</title>
+</head>
+<body>
+	{% for x in site.link %}
+		{{ x.link }} - {{ x.to }}<br>
+	{% endfor %}
+</body>
+</html>
