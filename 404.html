@@ -10,5 +10,11 @@
 	{% for x in site.link %}
 		{{ x.link }} - {{ x.to }}<br>
 	{% endfor %}
+
+	<script type="text/javascript">
+		url = location.href
+		segment = url.split('/')
+		document.writeln(segment[2])
+	</script>
 </body>
 </html>
