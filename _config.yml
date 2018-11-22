@@ -2,3 +2,6 @@ link:
   -
     link: zen
     to: http://muhammadzaini.com
+  -
+    to: http://github.com/mzaini30/to
+    link: repo-to
